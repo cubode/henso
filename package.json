@@ -1,6 +1,6 @@
 {
   "name": "henso",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Elegant and tiny form generator from json schema, framework agnostic.",
   "main": "index.js",
   "scripts": {
