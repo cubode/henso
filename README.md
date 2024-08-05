@@ -1,2 +1,3 @@
-# henso
-Elegant form generator from json schema
+# Henso
+
+Elegant and tiny form generator from json schema, framework agnostic.
