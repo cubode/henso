@@ -7,8 +7,7 @@ module.exports = {
     path: path.resolve('dist'),
     filename: 'index.js',
     library: 'henso',
-    libraryTarget: 'umd',
-    globalObject: 'this', // Ensures compatibility with various environments
+    libraryTarget: 'commonjs2',
   },
   module: {
     rules: [{
@@ -30,7 +29,7 @@ module.exports = {
     extensions: ['.js', '.jsx'],
   },
   externals: {
-    react: 'React',
+    react: 'react',
     'react-dom': 'ReactDOM',
   },
   mode: 'production',
